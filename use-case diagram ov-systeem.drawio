@@ -22,7 +22,7 @@
         <mxCell id="hYeA62whiQ3o5ys0g1t--2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="rijziger" vertex="1">
           <mxGeometry height="60" width="30" x="130" y="270" as="geometry" />
         </mxCell>
-        <mxCell id="hYeA62whiQ3o5ys0g1t--3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="incheckpaal" vertex="1">
+        <mxCell id="hYeA62whiQ3o5ys0g1t--3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="OV_terminal" vertex="1">
           <mxGeometry height="60" width="30" x="660" y="150" as="geometry" />
         </mxCell>
         <mxCell id="hYeA62whiQ3o5ys0g1t--13" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="oplaadpaal" vertex="1">
