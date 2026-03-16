@@ -16,10 +16,13 @@ public class Check_In_Paal {
         }
 
         kaart.setIsIngecheckt(true);
+        kaart.setSaldo(kaart.getSaldo() -instapTarief);
         System.out.println("Je bent ingecheckt.");
     }
 
     public void uitchecken(OV_Chipkaart kaart) {
+
+        double uitcheckbedrag = 5;
 
         if (!kaart.getIsIngecheckt()) {
             System.out.println("Je bent niet ingecheckt.");
@@ -27,6 +30,7 @@ public class Check_In_Paal {
         }
 
         kaart.setIsIngecheckt(false);
+        kaart.setSaldo(kaart.getSaldo() + instapTarief - uitcheckbedrag);
         System.out.println("je bent nu uitgecheckt.");
     }
 
