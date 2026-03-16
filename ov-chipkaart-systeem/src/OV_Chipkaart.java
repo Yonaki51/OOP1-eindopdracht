@@ -1,12 +1,14 @@
 public class OV_Chipkaart {
+    private static int volgendeChipNummer = 0;
     private double saldo;
     private String chipNr;
     private boolean geldig;
     private boolean isIngecheckt;
 
-    public OV_Chipkaart(double saldo, String chipNr, boolean geldig) {
+    public OV_Chipkaart(double saldo, boolean geldig) {
         this.saldo = saldo;
-        this.chipNr = chipNr;
+        this.chipNr = "NL-" + volgendeChipNummer;
+        volgendeChipNummer++;
         this.geldig = geldig;
         this.isIngecheckt = false;
     }
@@ -17,6 +19,10 @@ public class OV_Chipkaart {
 
     public boolean getGeldig() {
         return geldig;
+    }
+
+    public boolean getIsIngecheckt(){
+        return isIngecheckt;
     }
 
     public void setSaldo(double saldo) {
