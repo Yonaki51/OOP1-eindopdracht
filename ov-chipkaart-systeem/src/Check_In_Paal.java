@@ -19,14 +19,18 @@ public class Check_In_Paal {
         System.out.println("Je bent ingecheckt.");
     }
 
-    public void uitchecken(OV_Chipkaart kaart){
+    public void uitchecken(OV_Chipkaart kaart) {
 
-        if (!kaart.getIsIngecheckt()){
+        if (!kaart.getIsIngecheckt()) {
             System.out.println("Je bent niet ingecheckt.");
             return;
         }
 
         kaart.setIsIngecheckt(false);
-        System.out.println("je bent nu uitgecheckt. je resterende saldo is: " + kaart.getSaldo());
+        System.out.println("je bent nu uitgecheckt.");
+    }
+
+    public void toonSaldo(OV_Chipkaart kaart) {
+        System.out.println("je resterende saldo is: " + kaart.getSaldo());
     }
 }
