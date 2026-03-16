@@ -19,6 +19,10 @@ public class OV_Chipkaart {
         return geldig;
     }
 
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
+    }
+
     public void setIsIngecheckt(boolean isIngecheckt) {
         this.isIngecheckt = isIngecheckt;
     }
